@@ -1,0 +1,9 @@
+/* Specific styles for non-active links */
+.link-inactive {
+    color: #b6b0b0
+    }
+    /* Specific styles for active links */
+    .link-active {
+    color: rgb(255, 0, 0);
+    outline-style: auto;
+    }
