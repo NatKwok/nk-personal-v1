@@ -29,10 +29,10 @@ function Header() {
             className={({ isActive }) =>
               isActive ? "link-active" : "link-inactive"
             }
-            to="/about"
+            to="/education"
           >
             {" "}
-            Resume
+            Education
           </NavLink>
         </Button>
 
@@ -41,10 +41,10 @@ function Header() {
             className={({ isActive }) =>
               isActive ? "link-active" : "link-inactive"
             }
-            to="/content"
+            to="/experience"
           >
             {" "}
-            Portfolio
+            Experience
           </NavLink>
         </Button>
 
@@ -53,10 +53,10 @@ function Header() {
             className={({ isActive }) =>
               isActive ? "link-active" : "link-inactive"
             }
-            to="/contact"
+            to="/skills"
           >
             {" "}
-            Contact
+            Skills
           </NavLink>
         </Button>
 

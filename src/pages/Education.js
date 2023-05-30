@@ -6,19 +6,38 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import uw from '../media/waterloo_logo.png';
+import jac from '../media/jac_logo.png';
 
 function Main() {
 
   
     return (
-<div className='homepagebackground'>
+<div className='resumebackground'>
       <Container>
         <Row>
           <Col md={7}>
-            <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
-            <h2 className='nametext'>I'm Nathaniel Kwok</h2>
+            <h2 className='resumeheader'>Education</h2>
+            <h2 className='resumetext'>Bachelor of Environmental Studies 2013-2018</h2>
+            <img src={uw} className='uwlogo'></img>
+            <h3>Specialization in Geomatics</h3>
+            <h3>University of Waterloo, Ontario, Canada</h3>
+
             <span></span>
-        
+            <br></br>
+            <br></br>
+
+            <h2 className='resumetext'>Attestation D’etudes Collegiales (AEC) 2022-2023</h2>
+            <img src={jac} className='jaclogo'></img>
+            <h3>Full Stack Developer</h3>
+            <h3>John Abbott College, Quebec, Canada</h3>
+
+            <span></span>
+            <br></br>
+            <br></br>
+
+           
+      
             <button onClick={() => {
               window.open("https://github.com/NatKwok");
             }}
@@ -33,7 +52,11 @@ function Main() {
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
 
-
+          <Col md={5}>
+            <div className="imagedeveloper">
+             
+            </div>
+          </Col>
         </Row>
       </Container>
     </div>
