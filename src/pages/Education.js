@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import uw from '../media/waterloo_logo.png';
 import jac from '../media/jac_logo.png';
 
-function Main() {
+function Education() {
 
   
     return (
@@ -63,4 +63,4 @@ function Main() {
     );
   }
 
-  export default Main;
+  export default Education;

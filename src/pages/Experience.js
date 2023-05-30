@@ -8,7 +8,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 
-function Main() {
+function Experience() {
 
   
     return (
@@ -83,4 +83,4 @@ function Main() {
     );
   }
 
-  export default Main;
+  export default Experience;

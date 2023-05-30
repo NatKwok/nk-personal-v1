@@ -65,10 +65,22 @@ function Header() {
             className={({ isActive }) =>
               isActive ? "link-active" : "link-inactive"
             }
-            to="/details"
+            to="/portfolio"
           >
             {" "}
-            Details
+            Portfolio
+          </NavLink>
+        </Button>
+
+        <Button>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "link-active" : "link-inactive"
+            }
+            to="/contact"
+          >
+            {" "}
+            Contact
           </NavLink>
         </Button>
         </ButtonGroup>
