@@ -1,8 +1,6 @@
-import React from 'react';
-import '../pages/style.css';
+import React from "react";
+import "../pages/style.css";
 
-function Portfolio() {
-
-}
+function Portfolio() {}
 
 export default Portfolio;

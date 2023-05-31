@@ -15,32 +15,29 @@
 /* Footer style */
 .footer {
   width: 100%;
-  height: 40px;
-  background-color: #b6b0b0;
-  position: fixed !important;
+  height: 50px;
+  background-color: black;
+  position: absolute !important;
   transition: all 0.3s ease-out 0s !important;
-  /* padding: 0.5rem 3rem !important; */
-  /* font-size: 1.3rem !important; */
+  padding-bottom: 10px;
+
 }
 
 /* Homepage style */
 
 .homepagebackground {
   width: 100%;
-  height: 100vh;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #0d077a 0%,
-    #b402b9 46%,
-    #a600ff 100%
-  );
+  min-height: 100vh;
+
+  background-image: url(../media/background.png);
+  background-size: cover;
+  padding-top: 50px;
+
 }
 .row {
-  padding-top: 10px;
- 
-}
+  padding-top: 20px;
 
+}
 
 
 .headtext {
@@ -70,11 +67,12 @@
   width: 90px;
   height: 45px;
   background-color: transparent;
+  color: #dadada;
   border: none;
   border-radius: 15px;
 }
 .socailmediabtn:hover {
-  background-color: #b6b0b0;
+  background-color: black;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
   opacity: 0.6;
 }
@@ -110,25 +108,21 @@
 /* Resume style */
 .resumebackground {
   width: 100%;
-  height: 100%;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #0d077a 0%,
-    #b402b9 46%,
-    #a600ff 100%
-  );
+    min-height: 100vh;
+    background-image: url(../media/background_resume.png);
+    background-size: cover;
+  padding-top: 50px;
 }
 .resumeheader {
   padding-top: 120px;
   font-size: 2em !important;
-  color: black !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
 .resumetext {
   font-size: 1.5em !important;
-  color: black !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
@@ -163,18 +157,13 @@ img {
 /* Contactpage Style */
 .contactbackground {
   width: 100%;
-  height: 100%;
   min-height: 100vh;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
-  padding-top: 110px;
+  background-image: url(../media/background.png);
+  background-size: cover;
+  padding-top: 50px;
 }
 .contacthead {
+  color: #837b7b !important;
   padding-top: 3rem;
   text-align: center;
   font-size: 3.2rem;
@@ -182,6 +171,7 @@ img {
   letter-spacing: 1px;
 }
 .contactpara {
+  color: #ffffff !important;
   padding-top: 1rem;
   text-align: center;
   font-size: 16px;
@@ -190,6 +180,7 @@ img {
   font-family: 'Poppins';
 }
 .contactbtn {
+  color: #ffffff !important;
   display: block;
   margin: 0 auto;
   width: 150px;
@@ -199,9 +190,9 @@ img {
   letter-spacing: 2px;
 }
 .contactbtn:hover {
-  background-color: rgba(51, 51, 51, 0.2);
+  background-color: rgba(112, 112, 112, 0.2);
 }
-.copyright {
+/* .copyright {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -209,7 +200,7 @@ img {
   text-align: center;
   font-size: 12px;
   font-family: 'Poppins';
-}
+} */
 .copyright span {
   font-weight: 700;
   letter-spacing: 1px;

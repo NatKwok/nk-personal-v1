@@ -1,13 +1,18 @@
+import React from "react";
+
+
 function footer() {
-    return <h5 style={{textAlign: "center"}} className="footer">
-                <p className="copyright">
+  return (
+    <div className="footer">
+      <div style={{ textAlign: "center" }}>
+        <p className="copyright">
           © Copyright 2023
-          <hr />
+        <br></br>
           Designed & Built by <span>Nathaniel Kwok</span>
         </p>
-        
-        
-        </h5>
+      </div>
+    </div>
+  );
 }
 
 export default footer;

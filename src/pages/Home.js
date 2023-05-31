@@ -1,8 +1,7 @@
 import Main from "../components/Main";
 
 function home() {
-
-    return <Main />;
+  return <Main />;
 }
 
 export default home;
