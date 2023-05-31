@@ -8,12 +8,15 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Main() {
-
   
     return (
+      
 <div className='homepagebackground'>
+<Container>
+
+    </Container>
       <Container>
-        <Row>
+        <Row >
           <Col md={7}>
             <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
             <h2 className='nametext'>I'm Nathaniel Kwok</h2>
@@ -31,12 +34,19 @@ function Main() {
               window.open("https://instagram.com/nater__totts");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+              
           </Col>
 
 
+          <Col md={5}>
+          <div className="imagedeveloper">
+            </div>
+          </Col>
+
         </Row>
       </Container>
-    </div>
+      
+    </div> 
     );
   }
 
