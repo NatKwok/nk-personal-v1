@@ -207,13 +207,13 @@
 .headtext {
   padding-top: 120px;
   font-size: 2.4em !important;
-  color: #b6b0b0 !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
 .nametext {
   font-size: 2em !important;
-  color: #b6b0b0 !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
@@ -301,15 +301,15 @@
   letter-spacing: 1px !important;
 }
 h3 {
-  font-size: 1em !important;
-  color: #b6b0b0 !important;
+  font-size: 1.3em !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
 
 p {
   font-size: 1em !important;
-  color: #b6b0b0 !important;
+  color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }

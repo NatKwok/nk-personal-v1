@@ -16,7 +16,7 @@ function Education() {
 <div className='resumebackground'>
       <Container>
         <Row>
-          <Col md={7}>
+      
             <h2 className='resumeheader'>Education</h2>
             <h2 className='resumetext'>Bachelor of Environmental Studies 2013-2018</h2>
             <img src={uw} className='uwlogo'></img>
@@ -29,7 +29,7 @@ function Education() {
 
             <h2 className='resumetext'>Attestation D’etudes Collegiales (AEC) 2022-2023</h2>
             <img src={jac} className='jaclogo'></img>
-            <h3>Full Stack Developer</h3>
+            <h3>Full Stack Developer Program</h3>
             <h3>John Abbott College, Quebec, Canada</h3>
 
             <span></span>
@@ -50,15 +50,14 @@ function Education() {
               window.open("https://instagram.com/nater__totts");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
-          </Col>
+        
 
-          <Col md={5}>
-            <div className="imagedeveloper">
-             
-            </div>
-          </Col>
+
         </Row>
+        
+        
       </Container>
+      
     </div>
     );
   }

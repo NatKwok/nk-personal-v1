@@ -51,7 +51,7 @@ function Skills() {
 <div class="row">
 <h2 className='resumetext'>Geomatics Software</h2>
 	<a data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-		<img src={pospac} class="img-fluid" width="200"></img>
+		<img src={pospac} class="img-fluid" width="250"></img>
 	</a>
 	<a data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
 		<img src={pix4d} class="img-fluid" width="150"></img>
