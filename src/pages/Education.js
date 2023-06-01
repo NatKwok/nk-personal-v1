@@ -1,8 +1,6 @@
 import React from "react";
 import "../pages/style.css";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 import uw from "../media/waterloo_logo.png";
 import jac from "../media/jac_logo.png";
 import { motion } from "framer-motion";
