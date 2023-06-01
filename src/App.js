@@ -7,6 +7,7 @@ import Experience from "./pages/Experience";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="*" element={<p>Invalid URL</p>} />
         </Route>
       </Routes>
+      <ScrollToTop />
     </div>
   );
 }
