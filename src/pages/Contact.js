@@ -1,10 +1,16 @@
 import React from "react";
 import "../pages/style.css";
 import { Container } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className="contactbackground">
+    <motion.div
+    className="contactbackground"
+    initial={{ opacity: 0.7 }}
+    animate={{ opacity: 1 }}
+    transition={{ ease: "easeIn", duration: 1, x: { duration: 1 } }}
+    >
       <Container>
         <h2 className="contacthead">Contact Me</h2>
         <p className="contactpara">
@@ -22,7 +28,7 @@ function Contact() {
         </button>
         <span></span>
       </Container>
-    </div>
+    </motion.div>
   );
 }
 

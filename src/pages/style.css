@@ -6,10 +6,11 @@
   width: 100%;
   height: 40px;
   background-color: black;
-  position: fixed !important;
+  position: sticky !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.5rem 3rem !important;
   font-size: 1.3rem !important;
+  top: 0;
 }
 
 /* Footer style */
@@ -28,7 +29,6 @@
 .homepagebackground {
   width: 100%;
   min-height: 100vh;
-
   background-image: url(../media/background.png);
   background-size: cover;
   padding-top: 50px;

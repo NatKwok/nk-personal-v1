@@ -3,10 +3,16 @@ import "../pages/style.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Main() {
   return (
-    <div className="homepagebackground">
+    <motion.div
+      className="homepagebackground"
+      initial={{ opacity: 0.7 }}
+      animate={{ opacity: 1 }}
+      transition={{ ease:"easeIn", duration: 1, x: { duration: 1 } }}
+    >
       <Container>
         <Row>
           <Col md={7}>
@@ -47,7 +53,7 @@ function Main() {
           </Col> */}
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 }
 

@@ -12,10 +12,16 @@ import pix4d from "../media/pix4d_logo.png";
 import pospac from "../media/pospac.png";
 import globalmapper from "../media/global_mapper_logo.png";
 import php from "../media/php_logo.png";
+import { motion } from "framer-motion";
 
 function Skills() {
   return (
-    <div className="resumebackground">
+    <motion.div
+    className="resumebackground"
+    initial={{ opacity: 0.7 }}
+    animate={{ opacity: 1 }}
+    transition={{ ease: "easeIn", duration: 1, x: { duration: 1 } }}
+  >
       <Container>
         <Row>
           <Col md={7}>
@@ -91,7 +97,7 @@ function Skills() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 }
 

@@ -5,10 +5,16 @@ import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import uw from "../media/waterloo_logo.png";
 import jac from "../media/jac_logo.png";
+import { motion } from "framer-motion";
 
 function Education() {
   return (
-    <div className="resumebackground">
+    <motion.div 
+    className="resumebackground"
+    initial={{ opacity: 0.7 }}
+    animate={{ opacity: 1 }}
+    transition={{ ease: "easeIn", duration: 1, x: { duration: 1 } }}
+    >
       <Container>
         <Row>
           <h2 className="resumeheader">Education</h2>
@@ -37,7 +43,7 @@ function Education() {
           
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 }
 

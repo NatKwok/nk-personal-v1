@@ -3,10 +3,16 @@ import "../pages/style.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Experience() {
   return (
-    <div className="resumebackground">
+    <motion.div
+    className="resumebackground"
+    initial={{ opacity: 0.7 }}
+    animate={{ opacity: 1 }}
+    transition={{ ease: "easeIn", duration: 1, x: { duration: 1 } }}
+  >
       <Container>
         <Row>
           <Col md={7}>
@@ -81,7 +87,7 @@ function Experience() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </motion.div>
   );
 }
 
