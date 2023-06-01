@@ -44,6 +44,15 @@ const INFO = {
       linkText: "View Project",
       link: "https://github.com/NatKwok/Currency-Converter",
     },
+
+        {
+      title: "Digital Hand Tracker",
+      description:
+        "An application that trackers the users hand movement via webcam to control the mouse.",
+      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.png",
+      linkText: "View Project",
+      link: "https://github.com/NatKwok/Hand_Tracker",
+    },
   ],
 };
 

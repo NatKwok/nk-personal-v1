@@ -23,7 +23,7 @@ const { logo, title, description, linkText, link } = props;
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
-        <Typography variant="body2" >
+        <Typography variant="subtitle1" color="black">
           {description}
         </Typography>
       </CardContent>
