@@ -13,7 +13,7 @@ const { logo, title, description, linkText, link } = props;
   return (
     <React.Fragment>
 
-<Card sx={{ maxWidth: 300 }}>
+<Card sx={{ maxWidth: 300,  backgroundColor:'lightgray' }}>
       <CardMedia
         sx={{ height: 140 }}
         image={logo}
@@ -28,7 +28,7 @@ const { logo, title, description, linkText, link } = props;
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" href={link}>{linkText}</Button>
+        <Button variant='contained' size="medium" href={link}>{linkText}</Button>
 
       </CardActions>
     </Card>

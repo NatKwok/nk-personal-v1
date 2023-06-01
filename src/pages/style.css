@@ -206,10 +206,10 @@ img {
 .all-projects-container {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: stretch;
-
+	align-items: center;
 	padding-bottom: 30px;
-  margin-left: 30px;
+  margin-left: 70px;
+  padding-left: 30px;
 }
 
 .all-projects-project {
