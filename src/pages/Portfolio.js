@@ -2,7 +2,6 @@ import React from "react";
 import "../pages/style.css";
 import { motion } from "framer-motion";
 import ProjectGallery from "../components/ProjectGallery";
-import ProjectCard from "../components/ProjectCard";
 
 function Portfolio() {
     return (
