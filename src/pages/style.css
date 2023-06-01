@@ -13,6 +13,7 @@
   top: 0;
 }
 
+
 /* Footer style */
 .footer {
   width: 100%;
@@ -20,8 +21,7 @@
   background-color: black;
   position: absolute !important;
   transition: all 0.3s ease-out 0s !important;
-  padding-bottom: 10px;
-
+  font-size: x-small;
 }
 
 /* Homepage style */
