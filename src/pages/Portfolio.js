@@ -8,7 +8,7 @@ function Portfolio() {
     return (
 
         <motion.div
-        className="resumebackground"
+        className="portfoliobackground"
         initial={{ opacity: 0.7 }}
         animate={{ opacity: 1 }}
         transition={{ ease: "easeIn", duration: 1, x: { duration: 1 } }}

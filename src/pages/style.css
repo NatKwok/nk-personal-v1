@@ -28,7 +28,7 @@
 
 .homepagebackground {
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   background-image: url(../media/background.png);
   background-size: cover;
   padding-top: 50px;
@@ -109,16 +109,17 @@
 .resumebackground {
   width: 100%;
     min-height: 100vh;
-    background-image: url(../media/background_resume.png);
+    background-image: url(../media/background_dark.png);
     background-size: cover;
-  padding-top: 50px;
+
 }
 .resumeheader {
-  padding-top: 120px;
+  padding-top: 70px;
   font-size: 2em !important;
   color: #ffffff !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
+  
 }
 .resumetext {
   font-size: 1.5em !important;
@@ -126,6 +127,7 @@
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
+
 h3 {
   font-size: 1.3em !important;
   color: #ffffff !important;
@@ -201,6 +203,16 @@ img {
   .contactpara br {
     display: none;
   }
+}
+
+/* Portfolio style */
+.portfoliobackground {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../media/background_resume.png);
+  background-size: cover;
+  padding-top: 50px;
+
 }
 
 .all-projects-container {

@@ -15,7 +15,8 @@ function Education() {
     >
       <Container>
         <Row>
-          <h2 className="resumeheader">Education</h2>
+          <div className="resumebox">
+                      <h2 className="resumeheader">Education</h2>
           <h2 className="resumetext">
             Bachelor of Environmental Studies 2013-2018
           </h2>
@@ -37,6 +38,8 @@ function Education() {
           <span></span>
           <br></br>
           <br></br>
+          </div>
+
 
           
         </Row>
