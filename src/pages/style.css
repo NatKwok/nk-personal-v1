@@ -28,7 +28,7 @@
 
 .homepagebackground {
   width: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
   background-image: url(../media/background.png);
   background-size: cover;
   padding-top: 50px;
@@ -53,7 +53,12 @@
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
-
+.introtext {
+  font-size: 1em !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
 .imagedeveloper {
   margin-top: 10px;
   max-width: 350px;
@@ -220,8 +225,8 @@ img {
 	flex-wrap: wrap;
 	align-items: center;
 	padding-bottom: 30px;
-  margin-left: 70px;
-  padding-left: 30px;
+  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .all-projects-project {
@@ -229,6 +234,7 @@ img {
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;
+
 }
 
 @media (max-width: 600px) {

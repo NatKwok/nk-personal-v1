@@ -19,7 +19,7 @@ function Main() {
             <h2 className="headtext">
               Hello <span className="wave">👋 </span>
             </h2>
-            <h2 className="nametext">I'm Nathaniel Kwok</h2>
+            <h2 className="nametext">I'm Nathaniel, a geomatics developer. <br/>Welcome to my website.</h2>
             <span></span>
 
             <button
